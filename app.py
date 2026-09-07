@@ -1988,18 +1988,18 @@ class FootballAPI:
         return []
 
     def upcoming(self, league_code: str, days: int = 14) -> List[dict]:
-    t = datetime.now().strftime("%Y-%m-%d")
-    e = (datetime.now() + timedelta(days=days)).strftime("%Y-%m-%d")
+        t = datetime.now().strftime("%Y-%m-%d")
+        e = (datetime.now() + timedelta(days=days)).strftime("%Y-%m-%d")
 
     # Fetch upcoming matches by date range.
     # Do not send "SCHEDULED,TIMED" as one status value.
-    d = self._get(
+        d = self._get(
         f"competitions/{league_code}/matches",
         {"dateFrom": t, "dateTo": e},
         cache=False,
     )
 
-    if d and "matches" in d:
+        if d and "matches" in d:
         m = [
             x for x in d["matches"]
             if x.get("status") in ("SCHEDULED", "TIMED")
