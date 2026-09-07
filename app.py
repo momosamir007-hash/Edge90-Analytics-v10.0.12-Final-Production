@@ -4807,33 +4807,7 @@ def cli_main():
             print(C.red(f" Error: {e}"))
 
 
-# ══════════════════════════════════════════════════════════════
-# ENTRY POINT — V6.1 FIX: Streamlit/CLI separation
-# ══════════════════════════════════════════════════════════════
-if __name__ == "__main__":
-    # ══════════════════════════════════════════════════════
-    # ENTRY POINT — V6.1 FIX: منطق واضح بدون تعارض
-    # ──────────────────────────────────────────────────────
-    # python appp.py               → CLI
-    # python appp.py --streamlit   → Streamlit (يُطلق run_streamlit)
-    # streamlit run appp.py        → Streamlit (sys.argv[0] = 'appp.py')
-    # ══════════════════════════════════════════════════════
-    _want_streamlit = False
-    if STREAMLIT_AVAILABLE:
-        if "--streamlit" in sys.argv:
-            _want_streamlit = True
-        else:
-            try:
-                from streamlit.runtime.scriptrunner import get_script_run_ctx
-                if get_script_run_ctx() is not None:
-                    _want_streamlit = True
-            except Exception:
-                pass
 
-    if _want_streamlit:
-        run_streamlit()
-    else:
-        cli_main()
 # ══════════════════════════════════════════════════════════════
 # V8.5 — SHADOW DEPLOYMENT & LIVE MODEL EVALUATION
 # ══════════════════════════════════════════════════════════════
@@ -5727,3 +5701,30 @@ def audit_decision_policies(predictions, candidate_params=None, **selection_kwar
     result = audit_temporal_folds([], candidate_params, **selection_kwargs)
     result["version"] = VERSION
     return result
+# ══════════════════════════════════════════════════════════════
+# ENTRY POINT — V6.1 FIX: Streamlit/CLI separation
+# ══════════════════════════════════════════════════════════════
+if __name__ == "__main__":
+    # ══════════════════════════════════════════════════════
+    # ENTRY POINT — V6.1 FIX: منطق واضح بدون تعارض
+    # ──────────────────────────────────────────────────────
+    # python appp.py               → CLI
+    # python appp.py --streamlit   → Streamlit (يُطلق run_streamlit)
+    # streamlit run appp.py        → Streamlit (sys.argv[0] = 'appp.py')
+    # ══════════════════════════════════════════════════════
+    _want_streamlit = False
+    if STREAMLIT_AVAILABLE:
+        if "--streamlit" in sys.argv:
+            _want_streamlit = True
+        else:
+            try:
+                from streamlit.runtime.scriptrunner import get_script_run_ctx
+                if get_script_run_ctx() is not None:
+                    _want_streamlit = True
+            except Exception:
+                pass
+
+    if _want_streamlit:
+        run_streamlit()
+    else:
+        cli_main()
