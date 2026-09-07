@@ -1,0 +1,102 @@
+{
+  "leagues": {
+    "PL": {
+      "name": "Premier League",
+      "country": "England",
+      "api_code": "PL",
+      "api_url": "https://api.football-data.org/v4",
+      "data_files": [
+        "data/PL_Master.csv"
+      ],
+      "model_file": "models/PL_model_v7.pkl",
+      "calibration_file": "models/PL_calibration_v7.pkl",
+      "elo_file": "models/PL_elo_v7.pkl",
+      "teams_map_file": "config/PL_teams_map.json",
+      "aliases_file": "config/PL_aliases.json",
+      "rivalries_file": "config/PL_rivalries.json",
+      "home_advantage": 65,
+      "avg_home_goals": 1.53,
+      "avg_away_goals": 1.16
+    },
+    "LL": {
+      "name": "La Liga",
+      "country": "Spain",
+      "api_code": "PD",
+      "api_url": "https://api.football-data.org/v4",
+      "data_files": [
+        "data/LL_Master.csv"
+      ],
+      "model_file": "models/LL_model_v7.pkl",
+      "calibration_file": "models/LL_calibration_v7.pkl",
+      "elo_file": "models/LL_elo_v7.pkl",
+      "teams_map_file": "config/LL_teams_map.json",
+      "aliases_file": "config/LL_aliases.json",
+      "rivalries_file": "config/LL_rivalries.json",
+      "home_advantage": 60,
+      "avg_home_goals": 1.48,
+      "avg_away_goals": 1.12
+    },
+    "SA": {
+      "name": "Serie A",
+      "country": "Italy",
+      "api_code": "SA",
+      "api_url": "https://api.football-data.org/v4",
+      "data_files": [
+        "data/SA_Master.csv"
+      ],
+      "model_file": "models/SA_model_v7.pkl",
+      "calibration_file": "models/SA_calibration_v7.pkl",
+      "elo_file": "models/SA_elo_v7.pkl",
+      "teams_map_file": "config/SA_teams_map.json",
+      "aliases_file": "config/SA_aliases.json",
+      "rivalries_file": "config/SA_rivalries.json",
+      "home_advantage": 58,
+      "avg_home_goals": 1.45,
+      "avg_away_goals": 1.1
+    },
+    "BL": {
+      "name": "Bundesliga",
+      "country": "Germany",
+      "api_code": "BL1",
+      "api_url": "https://api.football-data.org/v4",
+      "data_files": [
+        "data/BL_Master.csv"
+      ],
+      "model_file": "models/BL_model_v7.pkl",
+      "calibration_file": "models/BL_calibration_v7.pkl",
+      "elo_file": "models/BL_elo_v7.pkl",
+      "teams_map_file": "config/BL_teams_map.json",
+      "aliases_file": "config/BL_aliases.json",
+      "rivalries_file": "config/BL_rivalries.json",
+      "home_advantage": 62,
+      "avg_home_goals": 1.68,
+      "avg_away_goals": 1.3
+    },
+    "L1": {
+      "name": "Ligue 1",
+      "country": "France",
+      "api_code": "FL1",
+      "api_url": "https://api.football-data.org/v4",
+      "data_files": [
+        "data/L1_Master.csv"
+      ],
+      "model_file": "models/L1_model_v7.pkl",
+      "calibration_file": "models/L1_calibration_v7.pkl",
+      "elo_file": "models/L1_elo_v7.pkl",
+      "teams_map_file": "config/L1_teams_map.json",
+      "aliases_file": "config/L1_aliases.json",
+      "rivalries_file": "config/L1_rivalries.json",
+      "home_advantage": 57,
+      "avg_home_goals": 1.4,
+      "avg_away_goals": 1.08
+    }
+  },
+  "global_settings": {
+    "elo_init": 1500,
+    "elo_k": 32,
+    "form_n": 8,
+    "backtest_split": 0.7,
+    "min_samples_per_class": 10,
+    "n_features": 126
+  }
+}

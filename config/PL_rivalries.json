@@ -1,0 +1,170 @@
+[
+  {
+    "teams": [
+      "Arsenal",
+      "Tottenham"
+    ],
+    "name": "North London Derby"
+  },
+  {
+    "teams": [
+      "Liverpool",
+      "Everton"
+    ],
+    "name": "Merseyside Derby"
+  },
+  {
+    "teams": [
+      "Man United",
+      "Man City"
+    ],
+    "name": "Manchester Derby"
+  },
+  {
+    "teams": [
+      "Man United",
+      "Liverpool"
+    ],
+    "name": "Northwest Derby"
+  },
+  {
+    "teams": [
+      "Man United",
+      "Arsenal"
+    ],
+    "name": "Battle of the North"
+  },
+  {
+    "teams": [
+      "Chelsea",
+      "Arsenal"
+    ],
+    "name": "London Derby"
+  },
+  {
+    "teams": [
+      "Chelsea",
+      "Tottenham"
+    ],
+    "name": "London Derby"
+  },
+  {
+    "teams": [
+      "Chelsea",
+      "West Ham"
+    ],
+    "name": "London Derby"
+  },
+  {
+    "teams": [
+      "Chelsea",
+      "Crystal Palace"
+    ],
+    "name": "London Derby"
+  },
+  {
+    "teams": [
+      "Chelsea",
+      "Fulham"
+    ],
+    "name": "West London Derby"
+  },
+  {
+    "teams": [
+      "Arsenal",
+      "West Ham"
+    ],
+    "name": "London Derby"
+  },
+  {
+    "teams": [
+      "Tottenham",
+      "West Ham"
+    ],
+    "name": "London Derby"
+  },
+  {
+    "teams": [
+      "Crystal Palace",
+      "Brighton"
+    ],
+    "name": "M23 Derby"
+  },
+  {
+    "teams": [
+      "Nottm Forest",
+      "Leicester"
+    ],
+    "name": "East Midlands Derby"
+  },
+  {
+    "teams": [
+      "Nottm Forest",
+      "Derby"
+    ],
+    "name": "East Midlands Derby"
+  },
+  {
+    "teams": [
+      "Wolves",
+      "Aston Villa"
+    ],
+    "name": "West Midlands Derby"
+  },
+  {
+    "teams": [
+      "Wolves",
+      "West Brom"
+    ],
+    "name": "Black Country Derby"
+  },
+  {
+    "teams": [
+      "Aston Villa",
+      "West Brom"
+    ],
+    "name": "West Midlands Derby"
+  },
+  {
+    "teams": [
+      "Man City",
+      "Liverpool"
+    ],
+    "name": "Top of the Table Clash"
+  },
+  {
+    "teams": [
+      "Newcastle",
+      "Sunderland"
+    ],
+    "name": "Tyne-Wear Derby"
+  },
+  {
+    "teams": [
+      "Sheffield Utd",
+      "Leeds"
+    ],
+    "name": "Yorkshire Derby"
+  },
+  {
+    "teams": [
+      "Burnley",
+      "Blackburn"
+    ],
+    "name": "East Lancashire Derby"
+  },
+  {
+    "teams": [
+      "Brentford",
+      "Fulham"
+    ],
+    "name": "West London Derby"
+  },
+  {
+    "teams": [
+      "Brentford",
+      "Chelsea"
+    ],
+    "name": "West London Derby"
+  }
+]

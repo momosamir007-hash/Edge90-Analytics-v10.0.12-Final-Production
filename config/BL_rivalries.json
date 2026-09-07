@@ -1,0 +1,156 @@
+[
+  {
+    "teams": [
+      "Bayern Munich",
+      "Dortmund"
+    ],
+    "name": "Der Klassiker"
+  },
+  {
+    "teams": [
+      "Bayern Munich",
+      "M'gladbach"
+    ],
+    "name": "Bavarian vs Rhineland"
+  },
+  {
+    "teams": [
+      "Bayern Munich",
+      "Leverkusen"
+    ],
+    "name": "Bundesliga Top Clash"
+  },
+  {
+    "teams": [
+      "Bayern Munich",
+      "Frankfurt"
+    ],
+    "name": "Bundesliga Classic"
+  },
+  {
+    "teams": [
+      "Dortmund",
+      "Schalke"
+    ],
+    "name": "Revierderby"
+  },
+  {
+    "teams": [
+      "Dortmund",
+      "Leverkusen"
+    ],
+    "name": "NRW Derby"
+  },
+  {
+    "teams": [
+      "Dortmund",
+      "M'gladbach"
+    ],
+    "name": "Bundesliga Classic"
+  },
+  {
+    "teams": [
+      "Hamburg",
+      "Werder Bremen"
+    ],
+    "name": "Nordderby"
+  },
+  {
+    "teams": [
+      "Hamburg",
+      "St. Pauli"
+    ],
+    "name": "Hamburger Stadtderby"
+  },
+  {
+    "teams": [
+      "Frankfurt",
+      "Darmstadt"
+    ],
+    "name": "Hessenderby"
+  },
+  {
+    "teams": [
+      "Frankfurt",
+      "Köln"
+    ],
+    "name": "Rhine-Main Derby"
+  },
+  {
+    "teams": [
+      "Stuttgart",
+      "Frankfurt"
+    ],
+    "name": "Südwestderby"
+  },
+  {
+    "teams": [
+      "Stuttgart",
+      "Freiburg"
+    ],
+    "name": "Baden-Württemberg Derby"
+  },
+  {
+    "teams": [
+      "Union Berlin",
+      "Hertha Berlin"
+    ],
+    "name": "Berliner Derby"
+  },
+  {
+    "teams": [
+      "Köln",
+      "M'gladbach"
+    ],
+    "name": "Rheinisches Derby"
+  },
+  {
+    "teams": [
+      "Köln",
+      "Leverkusen"
+    ],
+    "name": "Rheinisches Derby"
+  },
+  {
+    "teams": [
+      "Schalke",
+      "Bochum"
+    ],
+    "name": "Reviernachbarderby"
+  },
+  {
+    "teams": [
+      "Wolfsburg",
+      "Hannover"
+    ],
+    "name": "Niedersachsenderby"
+  },
+  {
+    "teams": [
+      "RB Leipzig",
+      "Dortmund"
+    ],
+    "name": "Bundesliga Top Clash"
+  },
+  {
+    "teams": [
+      "Bayern Munich",
+      "RB Leipzig"
+    ],
+    "name": "Bundesliga Top Clash"
+  },
+  {
+    "teams": [
+      "Holstein Kiel",
+      "Hamburg"
+    ],
+    "name": "Nordderby"
+  },
+  {
+    "teams": [
+      "St. Pauli",
+      "Holstein Kiel"
+    ],
+    "name": "Nordderby"
+  }
+]

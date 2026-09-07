@@ -1,0 +1,128 @@
+[
+  {
+    "teams": [
+      "Real Madrid",
+      "Barcelona"
+    ],
+    "name": "El Clásico"
+  },
+  {
+    "teams": [
+      "Real Madrid",
+      "Atletico Madrid"
+    ],
+    "name": "Madrid Derby"
+  },
+  {
+    "teams": [
+      "Real Madrid",
+      "Real Sociedad"
+    ],
+    "name": "La Liga Top Clash"
+  },
+  {
+    "teams": [
+      "Real Madrid",
+      "Sevilla"
+    ],
+    "name": "La Liga Classic"
+  },
+  {
+    "teams": [
+      "Barcelona",
+      "Espanyol"
+    ],
+    "name": "Derbi Barceloní"
+  },
+  {
+    "teams": [
+      "Barcelona",
+      "Atletico Madrid"
+    ],
+    "name": "La Liga Top Clash"
+  },
+  {
+    "teams": [
+      "Barcelona",
+      "Villarreal"
+    ],
+    "name": "La Liga Classic"
+  },
+  {
+    "teams": [
+      "Sevilla",
+      "Real Betis"
+    ],
+    "name": "Derbi Sevillano"
+  },
+  {
+    "teams": [
+      "Athletic Club",
+      "Real Sociedad"
+    ],
+    "name": "Basque Derby"
+  },
+  {
+    "teams": [
+      "Athletic Club",
+      "Osasuna"
+    ],
+    "name": "Basque-Navarre Derby"
+  },
+  {
+    "teams": [
+      "Valencia",
+      "Villarreal"
+    ],
+    "name": "Derbi de la Comunitat"
+  },
+  {
+    "teams": [
+      "Valencia",
+      "Levante"
+    ],
+    "name": "Derby de Valencia"
+  },
+  {
+    "teams": [
+      "Celta Vigo",
+      "Deportivo"
+    ],
+    "name": "Derbi Galego"
+  },
+  {
+    "teams": [
+      "Atletico Madrid",
+      "Real Betis"
+    ],
+    "name": "La Liga Clash"
+  },
+  {
+    "teams": [
+      "Girona",
+      "Espanyol"
+    ],
+    "name": "Catalan Derby"
+  },
+  {
+    "teams": [
+      "Girona",
+      "Barcelona"
+    ],
+    "name": "Catalan Derby"
+  },
+  {
+    "teams": [
+      "Rayo Vallecano",
+      "Getafe"
+    ],
+    "name": "Madrid South Derby"
+  },
+  {
+    "teams": [
+      "Rayo Vallecano",
+      "Atletico Madrid"
+    ],
+    "name": "Madrid Derby"
+  }
+]

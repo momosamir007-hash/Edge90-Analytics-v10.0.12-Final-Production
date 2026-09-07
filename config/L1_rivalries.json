@@ -1,0 +1,170 @@
+[
+  {
+    "teams": [
+      "PSG",
+      "Marseille"
+    ],
+    "name": "Le Classique"
+  },
+  {
+    "teams": [
+      "PSG",
+      "Lyon"
+    ],
+    "name": "Paris vs Lyon"
+  },
+  {
+    "teams": [
+      "PSG",
+      "Monaco"
+    ],
+    "name": "French Top Clash"
+  },
+  {
+    "teams": [
+      "PSG",
+      "Lille"
+    ],
+    "name": "French Top Clash"
+  },
+  {
+    "teams": [
+      "Marseille",
+      "Lyon"
+    ],
+    "name": "Olympico"
+  },
+  {
+    "teams": [
+      "Marseille",
+      "Nice"
+    ],
+    "name": "Côte d'Azur Derby"
+  },
+  {
+    "teams": [
+      "Marseille",
+      "Monaco"
+    ],
+    "name": "Mediterranean Derby"
+  },
+  {
+    "teams": [
+      "Marseille",
+      "Montpellier"
+    ],
+    "name": "South Derby"
+  },
+  {
+    "teams": [
+      "Lyon",
+      "St Etienne"
+    ],
+    "name": "Derby du Rhône"
+  },
+  {
+    "teams": [
+      "Lyon",
+      "Monaco"
+    ],
+    "name": "French Classic"
+  },
+  {
+    "teams": [
+      "Monaco",
+      "Nice"
+    ],
+    "name": "Côte d'Azur Derby"
+  },
+  {
+    "teams": [
+      "Lens",
+      "Lille"
+    ],
+    "name": "Derby du Nord"
+  },
+  {
+    "teams": [
+      "Lens",
+      "Valenciennes"
+    ],
+    "name": "Derby du Nord"
+  },
+  {
+    "teams": [
+      "Lille",
+      "Valenciennes"
+    ],
+    "name": "Derby du Nord"
+  },
+  {
+    "teams": [
+      "Bordeaux",
+      "Toulouse"
+    ],
+    "name": "Derby du Sud-Ouest"
+  },
+  {
+    "teams": [
+      "Nantes",
+      "Rennes"
+    ],
+    "name": "Derby de l'Ouest"
+  },
+  {
+    "teams": [
+      "Nantes",
+      "Angers"
+    ],
+    "name": "Derby de Loire"
+  },
+  {
+    "teams": [
+      "Rennes",
+      "Brest"
+    ],
+    "name": "Derbi Breton"
+  },
+  {
+    "teams": [
+      "Rennes",
+      "Guingamp"
+    ],
+    "name": "Derbi Breton"
+  },
+  {
+    "teams": [
+      "Brest",
+      "Guingamp"
+    ],
+    "name": "Derbi Breton"
+  },
+  {
+    "teams": [
+      "Toulouse",
+      "Montpellier"
+    ],
+    "name": "Derby du Sud"
+  },
+  {
+    "teams": [
+      "Strasbourg",
+      "Metz"
+    ],
+    "name": "Derby de l'Est"
+  },
+  {
+    "teams": [
+      "Paris FC",
+      "PSG"
+    ],
+    "name": "Parisian Derby"
+  },
+  {
+    "teams": [
+      "Red Star",
+      "PSG"
+    ],
+    "name": "Parisian Derby"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "version": "v9.3",
+  "league": "PL",
+  "updated_at": "2026-09-07T17:10:10.372712Z",
+  "latest": {
+    "at": "2026-09-07T17:10:10.372712Z",
+    "status": "healthy",
+    "checks": {
+      "required:leagues_config.json": {
+        "status": "healthy",
+        "detail": "leagues_config.json",
+        "bytes": 3161
+      },
+      "champion_model": {
+        "status": "missing",
+        "detail": "models/PL_model_v7.pkl"
+      },
+      "data_quality": {
+        "status": "healthy",
+        "safe_for_training": true,
+        "leakage_risk": "low"
+      },
+      "atomic_storage": {
+        "status": "healthy"
+      }
+    },
+    "failures": [],
+    "automatic_actions_allowed": true
+  },
+  "history": [
+    {
+      "at": "2026-09-07T17:10:10.372712Z",
+      "status": "healthy",
+      "failures": []
+    }
+  ]
+}

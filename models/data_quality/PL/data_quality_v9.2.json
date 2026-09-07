@@ -1,0 +1,37 @@
+{
+  "version": "v9.2",
+  "league": "PL",
+  "updated_at": "2026-09-07T17:10:10.372132Z",
+  "latest": {
+    "rows": 4512,
+    "status": "healthy",
+    "quality_score": 1.0,
+    "issues": {
+      "missing_required": 0,
+      "duplicate_matches": 0,
+      "invalid_dates": 0,
+      "future_finished_dates": 0,
+      "conflicting_fixtures": 0,
+      "chronology_anomalies": 0
+    },
+    "examples": {
+      "missing_required": [],
+      "duplicate_matches": [],
+      "invalid_dates": [],
+      "future_finished_dates": [],
+      "conflicting_fixtures": [],
+      "chronology_anomalies": []
+    },
+    "leakage_risk": "low",
+    "safe_for_training": true
+  },
+  "history": [
+    {
+      "at": "2026-09-07T17:10:10.372132Z",
+      "status": "healthy",
+      "quality_score": 1.0,
+      "leakage_risk": "low",
+      "rows": 4512
+    }
+  ]
+}

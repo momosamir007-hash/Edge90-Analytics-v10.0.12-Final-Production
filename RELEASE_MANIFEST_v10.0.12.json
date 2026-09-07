@@ -1,0 +1,787 @@
+{
+  "version": "v10.0.12",
+  "status": "FINAL",
+  "file_count": 156,
+  "files": [
+    {
+      "path": "BENCHMARK_5X5_FINAL_RESULTS.md",
+      "sha256": "39a7935868cc2a51911718b4de5b3b1f454e28e0ffe4f4504a9a0a09197f9a98",
+      "bytes": 1442
+    },
+    {
+      "path": "BENCHMARK_5X5_FOLD_RESULTS.csv",
+      "sha256": "58001f63653bdea11b1e5011f720f68daa79c7f72eab2686c1fa7637eadee1d7",
+      "bytes": 10705
+    },
+    {
+      "path": "BENCHMARK_5X5_SIGNIFICANCE_RESULTS.json",
+      "sha256": "ac61625565a815fdbafffdd8788e8db75c5f63c31b42a56bc4e16a1de6dc45f9",
+      "bytes": 58276
+    },
+    {
+      "path": "FINAL_RELEASE_README.md",
+      "sha256": "9ca16537b9dcd1e785feace0714ca9534e129b93b883a9ea69a7e86412b121a8",
+      "bytes": 2891
+    },
+    {
+      "path": "PL_teams_map.json",
+      "sha256": "229f6a8b5983f230b5968bdb615d46649e4a9f5f0921a3e52d659d8ddd8af30e",
+      "bytes": 926
+    },
+    {
+      "path": "README_V7.4.md",
+      "sha256": "8b4adfc8e04facc4c63621d9ff464f481c8222ae0fac56d75467509973c0ca55",
+      "bytes": 526
+    },
+    {
+      "path": "README_V7.md",
+      "sha256": "d6412e194fbc3dfc336ee191c1b7cac4aa1070ac0b25790b6b05987bd1c91477",
+      "bytes": 1841
+    },
+    {
+      "path": "RELEASE_MANIFEST_v10.0.12.json",
+      "sha256": "4f4db45bcc271319267ab668c3489405a2685ca90f70398cb14c6243aede28de",
+      "bytes": 24830
+    },
+    {
+      "path": "RELEASE_READINESS.md",
+      "sha256": "9c513bd6f2c934a61d4037667d32dc791946bbe13630cba28529addae55a256e",
+      "bytes": 559
+    },
+    {
+      "path": "V10.0.10_BENCHMARK_GUIDE.md",
+      "sha256": "f926d9039532d608fd18cb16c81e6f8949d7af585753c4013bbde1bd2b37bb01",
+      "bytes": 1141
+    },
+    {
+      "path": "V10.0.10_RELEASE_NOTES.md",
+      "sha256": "5cb2063f9eed13d95566fb3082789c9182013fb556139f4222152711935613e3",
+      "bytes": 1091
+    },
+    {
+      "path": "V10.0.11_DUAL_OBJECTIVE.md",
+      "sha256": "5b01ebfa7cee05862a375c367104e0aabd699ed73a3f30253fc527af9e48e172",
+      "bytes": 763
+    },
+    {
+      "path": "V10.0.11_RELEASE_NOTES.md",
+      "sha256": "76a62e9793006503fbb0b21423d21b537c847e3112f52d613a375b86162fc1d3",
+      "bytes": 1200
+    },
+    {
+      "path": "V10.0.11_RELEASE_READINESS.md",
+      "sha256": "b14fecc9efed107c42f4d9c6c375e116c575ff318ae319b7c79fae097a04e607",
+      "bytes": 416
+    },
+    {
+      "path": "V10.0.12_FINAL_RELEASE.md",
+      "sha256": "9b61ea0c169910778be8c33a0e97c6aa85f1b38c9eec2aafe6752f0c77f8c11d",
+      "bytes": 839
+    },
+    {
+      "path": "V10.0.1_VERIFICATION.md",
+      "sha256": "7a431eb3b7b6cffa3eeddf9d6b81efa976cdaf093a3477933074c7ddc92740ce",
+      "bytes": 1382
+    },
+    {
+      "path": "V10.0.2_ACCEPTANCE_REVIEW.md",
+      "sha256": "1f5c735f57c37b94b4554282a318c3bebc30b1bd8b44ccf1683b439e32a027c6",
+      "bytes": 645
+    },
+    {
+      "path": "V10.0.3_DRAW_AUDIT_AND_FIXES.md",
+      "sha256": "1d1343be6f44d8ecbbaaf612531e47e2f63e877c0d0517beb8d7c7d21849fe60",
+      "bytes": 1942
+    },
+    {
+      "path": "V10.0.4_TARGETED_DRAW_FIX.md",
+      "sha256": "644fe1f5095e5542c9705c67f48bc504a2a786540b052dc8841f43287a04e1c3",
+      "bytes": 919
+    },
+    {
+      "path": "V10.0.5_PROBABILITY_INTEGRITY.md",
+      "sha256": "ae0b5e19947ceb1d3af4847680f68b3c6c415b9af6ef55f68ee1fdfb64042071",
+      "bytes": 400
+    },
+    {
+      "path": "V10.0.6_PROBABILITY_PIPELINE_TRACE.md",
+      "sha256": "c9f36b48ede84456f1ea4ff3cc9a602b9fb1ab76b475d885137f690491020528",
+      "bytes": 419
+    },
+    {
+      "path": "V10.0.7_RESUMABLE_WALK_FORWARD.md",
+      "sha256": "372d084004d25984f777945e8605242287aada0838b016d78361f7899c855759",
+      "bytes": 345
+    },
+    {
+      "path": "V10.0.8_DECISION_POLICY_AUDIT.md",
+      "sha256": "950fc1cf7a0c3dd1bdd233cf3155a8b02e12a5607a0b4d52a966cd330d466ab4",
+      "bytes": 363
+    },
+    {
+      "path": "V10.0.9_DECISION_POLICY_OPTIMIZATION.md",
+      "sha256": "203cf298dff8f1ad1e0dac41a2afc330863ad1adf83e919f5ef1b38be22b4031",
+      "bytes": 974
+    },
+    {
+      "path": "V10.0.9_RELEASE_NOTES.md",
+      "sha256": "149d8bf33925d2e13db7a135636946a310078d0bae3bd042f68530913346eab8",
+      "bytes": 596
+    },
+    {
+      "path": "V10.0_FINAL_RELEASE.md",
+      "sha256": "fcb61af09e74cd1243838901a6abb8a89b1f86620f6d7e671ee8b6115a3a49fe",
+      "bytes": 1527
+    },
+    {
+      "path": "V7.1_BACKTEST_FINDINGS.md",
+      "sha256": "d974834348b1de63ba54e3abf7dfd2bc5866c740621e8b599bf9f0c436c10a19",
+      "bytes": 1996
+    },
+    {
+      "path": "V7.2_CHANGES.md",
+      "sha256": "6edd1a7ed069f94a42ab53cf87fb40043af0bb86aa58aa10cdb8938d380a790a",
+      "bytes": 980
+    },
+    {
+      "path": "V7.3_CHANGES.md",
+      "sha256": "0fbf268165c6e0d525e3ec6e067576fb210cae8fa4254b94ee941258a5619af6",
+      "bytes": 1132
+    },
+    {
+      "path": "V7.4_CHANGES.md",
+      "sha256": "62a5c42d715d4efd7efa23c0ab279baeda1f77cf251713223675282e4fbe47da",
+      "bytes": 875
+    },
+    {
+      "path": "V7.7_CHANGES.md",
+      "sha256": "5031ceaac692999a13c7ce33ea227503bbe637a3d95d4998603bbbfc8abe3371",
+      "bytes": 1456
+    },
+    {
+      "path": "V7.8_CHANGES.md",
+      "sha256": "6e86875743497d195548ea444cdeb22c39524e53da1c068aeb74dc44a635bcc5",
+      "bytes": 1066
+    },
+    {
+      "path": "V7.9_CHANGES.md",
+      "sha256": "b8b2fe61bcdd0c277c458c207950ea80b14294e69bcb58bc9d24be0306adf81d",
+      "bytes": 804
+    },
+    {
+      "path": "V8.0_CHANGES.md",
+      "sha256": "1b467322b1e249b65bfdd976d584e35fa3b97e1b448a0e2cd870b61da11d4275",
+      "bytes": 695
+    },
+    {
+      "path": "V8.1_CHANGES.md",
+      "sha256": "7c9c97209efed52d83e64dd0f849a0a9d89ceb5c78a7697b81e0f61bbf083c3b",
+      "bytes": 809
+    },
+    {
+      "path": "V8.2_CHANGES.md",
+      "sha256": "45e1d6a17cbaeac812cdad92173a996c0e5162ec661aa8299fe8b60e13b5927e",
+      "bytes": 944
+    },
+    {
+      "path": "V8.3_CHANGES.md",
+      "sha256": "444c9bebf3b68b0226d7ab542d86442baf0b06841b607b01dbf8ea865dc3eb1b",
+      "bytes": 750
+    },
+    {
+      "path": "V8.4_CHANGES.md",
+      "sha256": "d2ef803bdfeffc1bb98b0faa6f89c7007be5e2334538decb6526949557cd53ec",
+      "bytes": 720
+    },
+    {
+      "path": "V8.5_CHANGES.md",
+      "sha256": "99f421b8d567a91338b6a10dd23a4da4c48ee286967cb1f7263eb902bd83d1a2",
+      "bytes": 1081
+    },
+    {
+      "path": "V8.6_CHANGES.md",
+      "sha256": "010fa2157de06eeaec53c85ccdc1a1d232aa0a9db2d42ccd4f115f3ade06fcf0",
+      "bytes": 1053
+    },
+    {
+      "path": "V8.7_CHANGES.md",
+      "sha256": "fda8ce91723920471eaed99bc9f09611084f04ef45670bd514fcea6692bfd884",
+      "bytes": 860
+    },
+    {
+      "path": "V8.8_CHANGES.md",
+      "sha256": "f43cd4d4541bacf92a49030c2e405fcfc72606b415badc344011ef05fb0b8d8a",
+      "bytes": 610
+    },
+    {
+      "path": "V8.9_CHANGES.md",
+      "sha256": "15ea71e0dd94900e062112fff7e5c737f9b90c635d54e722fef43eb9ffe03ee8",
+      "bytes": 749
+    },
+    {
+      "path": "V9.0_CHANGES.md",
+      "sha256": "3341fbad4613315966b9f6334a0a16c989d0f3868798ecca59151e8018b468d2",
+      "bytes": 603
+    },
+    {
+      "path": "V9.1_CHANGES.md",
+      "sha256": "52ce66cb75e92f5518f4d84cf533acd5e87a65801a6b8960ce0e4d01a886ad95",
+      "bytes": 757
+    },
+    {
+      "path": "V9.2_CHANGES.md",
+      "sha256": "daacb6e6e166eca99f0f59a375192be518c90525b529d2edd7c5060235be88c5",
+      "bytes": 886
+    },
+    {
+      "path": "V9.3_CHANGES.md",
+      "sha256": "62944510bf141646e8742008ffb89ccf58df4e7027c4760270b9651b6b70b178",
+      "bytes": 664
+    },
+    {
+      "path": "V9.4_CHANGES.md",
+      "sha256": "83aa4f26f1b248963a79b11bdd8b5df0f8dce3b0c81aa87ec4ba1f497c7f1827",
+      "bytes": 826
+    },
+    {
+      "path": "VERSION.md",
+      "sha256": "fa91f3a0c40f3fe33a9f1a886c04c2e2875f190aa65886e59714d9a4a26d5892",
+      "bytes": 133
+    },
+    {
+      "path": "app.py",
+      "sha256": "c6a246d061805347eaa35265c2f4e9907cd20fab2ea39b085dd6481b0d237d93",
+      "bytes": 275066
+    },
+    {
+      "path": "audit_project.py",
+      "sha256": "7a0311666d5bd6016a194dfe5dd41c768f6e5967c308242e8c6ad5b8c1634485",
+      "bytes": 1709
+    },
+    {
+      "path": "benchmark_v10_0_10.py",
+      "sha256": "e294dbbb5b0593e69249613a1df3c35cd4832a4fe4dbf32d06835fcd8f82e8b1",
+      "bytes": 4306
+    },
+    {
+      "path": "config/BL_aliases.json",
+      "sha256": "1120e53f24ce242fe1b7577633bbf9523dfc115ac73beb46e6ab533d64feb864",
+      "bytes": 2892
+    },
+    {
+      "path": "config/BL_rivalries.json",
+      "sha256": "a59eb71c9e4c0f4063c57cce6b984a49526d976f5d9c1443cad33cd447e30232",
+      "bytes": 2343
+    },
+    {
+      "path": "config/BL_teams_map.json",
+      "sha256": "7a465a1dfa2d7ac0aa1881b051b8035cad49e39e65ffc1e38f8c32328518e6ca",
+      "bytes": 842
+    },
+    {
+      "path": "config/L1_aliases.json",
+      "sha256": "c86270947dfe9b2d95b1193c2309490f9b8bda05245477fc61662a14e2be085f",
+      "bytes": 2327
+    },
+    {
+      "path": "config/L1_rivalries.json",
+      "sha256": "2fb71b5547c495fedcbd3c162cf925d1bf1aa1a7950d6763e95c51a59ced4930",
+      "bytes": 2374
+    },
+    {
+      "path": "config/L1_teams_map.json",
+      "sha256": "986bc530e9fbe9df3382c4a5cc5d323805985094acb827a9cd6edd38481f6ca3",
+      "bytes": 704
+    },
+    {
+      "path": "config/LL_aliases.json",
+      "sha256": "9bbdd7ec09efef1a561a654f399c9db62f673bbd39970279949d3abd8e8e072a",
+      "bytes": 2119
+    },
+    {
+      "path": "config/LL_rivalries.json",
+      "sha256": "831f779251d869b9450bbd04fcd30bdfb965f567d7dbf43f34bb1fab115caba6",
+      "bytes": 1934
+    },
+    {
+      "path": "config/LL_teams_map.json",
+      "sha256": "705cea71f969e909ffa525c9219f77a1af8a4e3543fb097bcd2e60f3046db361",
+      "bytes": 586
+    },
+    {
+      "path": "config/PL_aliases.json",
+      "sha256": "849d9bae55ca0d3d0adc80e85f3eb19e4c4b3d4be7b94dda5e577b668822c577",
+      "bytes": 2411
+    },
+    {
+      "path": "config/PL_rivalries.json",
+      "sha256": "20bd0e2cf8dd833d69264835de9d8933cc473304780ec2b9aff2fa48bf16b98a",
+      "bytes": 2525
+    },
+    {
+      "path": "config/PL_teams_map.json",
+      "sha256": "229f6a8b5983f230b5968bdb615d46649e4a9f5f0921a3e52d659d8ddd8af30e",
+      "bytes": 926
+    },
+    {
+      "path": "config/SA_aliases.json",
+      "sha256": "89a1ccd82e6fba1d8c594c9d576e2d2f2e28987591e1dc92cecdebe7cd50fc06",
+      "bytes": 1997
+    },
+    {
+      "path": "config/SA_rivalries.json",
+      "sha256": "f9765f41a6b7e5c3442abcd76c915b9a99b91f96e85af4b920c0dd4846db7f3e",
+      "bytes": 2026
+    },
+    {
+      "path": "config/SA_teams_map.json",
+      "sha256": "c9aa88e102a6169043509d87b8d57c40350366cb0c5002e5833433c9f646d44e",
+      "bytes": 588
+    },
+    {
+      "path": "data/BL_Master.csv",
+      "sha256": "96296b983d46f0f01994223668eb419cfcc74fd8e82e568ff13780aa432178d3",
+      "bytes": 324763
+    },
+    {
+      "path": "data/L1_Master.csv",
+      "sha256": "15e20e8abeeb799b71dc2487f21cd8442c0fb00239948d85cebddee7d7fade22",
+      "bytes": 368382
+    },
+    {
+      "path": "data/LL_Master.csv",
+      "sha256": "3b86ee520454fa3dbd515952042e5ef978be236b4dcc3c25ad892547c1c1bac0",
+      "bytes": 277921
+    },
+    {
+      "path": "data/PL_Master.csv",
+      "sha256": "34e5459b133a8ab3dc609296f792c48db5f6154f5ede0228362aca7b603a6aa8",
+      "bytes": 415164
+    },
+    {
+      "path": "data/SA_Master.csv",
+      "sha256": "dd6322ef3cc0d37c7991c7210951bdffe58878f27de56d4e36cf857438d7f3bf",
+      "bytes": 395646
+    },
+    {
+      "path": "decision_layer.py",
+      "sha256": "4e73626697351597f6f5ecd84bd045b615f78cbd318402058f8181091a05b68c",
+      "bytes": 4334
+    },
+    {
+      "path": "decision_policy.py",
+      "sha256": "1d16ef00fdb0b8726727f3f19dcb6272bc68b61a1a7e8780d6b4fc6624a58633",
+      "bytes": 2444
+    },
+    {
+      "path": "decision_policy_audit.py",
+      "sha256": "f888f5b9364ca372496340239a71567b528eb7d1b4588132db94155e2fa7880e",
+      "bytes": 5997
+    },
+    {
+      "path": "downloader.py",
+      "sha256": "285863a7fb8d85630f4feb56eb51dc9c113270e454ff082b2889b4aa1bcc5196",
+      "bytes": 37146
+    },
+    {
+      "path": "historical_data/england/E0_1415.csv",
+      "sha256": "76b7858051ff6b17f46f49f26fdc70c1f29537270492606f5cc63d67fad5d149",
+      "bytes": 100899
+    },
+    {
+      "path": "historical_data/england/E0_1516.csv",
+      "sha256": "bd3502a18c38a1597fd9af62e2366b4015006d3528dd4d18b311bd6237bbc085",
+      "bytes": 100656
+    },
+    {
+      "path": "historical_data/england/E0_1617.csv",
+      "sha256": "9625a7652b5f98fbd3e2e4d378c851fc246693f3343e34a72428d5b6e864d3e0",
+      "bytes": 99990
+    },
+    {
+      "path": "historical_data/england/E0_1718.csv",
+      "sha256": "4f3389365ef3f7ac966764ed8ba67cf3b79f5aebed18dd224099c4b2c98bc67b",
+      "bytes": 100734
+    },
+    {
+      "path": "historical_data/england/E0_1819.csv",
+      "sha256": "7c096b3c2ecd54c6993d22eeea73450c2bde11e3457238b226b8f43c62dfc35e",
+      "bytes": 96144
+    },
+    {
+      "path": "historical_data/england/E0_1920.csv",
+      "sha256": "100037618b94f94057400bb02bf6bac4ef74ddaa58cde4b38370839c39caee61",
+      "bytes": 175475
+    },
+    {
+      "path": "historical_data/england/E0_2021.csv",
+      "sha256": "5afe63f69401457b8354eaacee24f9a3e520b3c3af6329564a9783e20d789c62",
+      "bytes": 175815
+    },
+    {
+      "path": "historical_data/england/E0_2122.csv",
+      "sha256": "335afcbabeb2939fa10ab39ba3e8215072d0b577cb8d0705c1e44c56e934e703",
+      "bytes": 175363
+    },
+    {
+      "path": "historical_data/england/E0_2223.csv",
+      "sha256": "8442792d3b614c94ea3cf381bd2736805889cc1713169035368fff19c3d02380",
+      "bytes": 176180
+    },
+    {
+      "path": "historical_data/england/E0_2324.csv",
+      "sha256": "b2e057b0ed959f198b0f63d2391c01239f3608e6de5db68edab3f88e04d07ff3",
+      "bytes": 172196
+    },
+    {
+      "path": "historical_data/england/E0_2425.csv",
+      "sha256": "d0c8ce4a96d886cf60cf101f570f4a3893844226f91c7bd769eb568c49edbfa4",
+      "bytes": 197110
+    },
+    {
+      "path": "historical_data/england/E0_2526.csv",
+      "sha256": "28731ee396035b63983444cc16ece465456b7b52fbb26a8b9e19a919362dc58b",
+      "bytes": 179962
+    },
+    {
+      "path": "historical_data/france/F1_1415.csv",
+      "sha256": "af3e0896d952066bd52567824993bc05b8b1faa2021b5de06265f76e6ef2e17b",
+      "bytes": 96761
+    },
+    {
+      "path": "historical_data/france/F1_1516.csv",
+      "sha256": "a5470505e6691d94b044eeed59eb3f6447aa41c51dcafb4d0abd92ad1fa6be80",
+      "bytes": 95146
+    },
+    {
+      "path": "historical_data/france/F1_1617.csv",
+      "sha256": "3039aecaf3de6e6ef95450b3349bf0337a118b6ed47fc234509953aaee23b4c5",
+      "bytes": 94928
+    },
+    {
+      "path": "historical_data/france/F1_1718.csv",
+      "sha256": "95997fd3c3e13be3101b216fe9b26a9ce6715ac6b76b115e44926c12b90977e6",
+      "bytes": 95353
+    },
+    {
+      "path": "historical_data/france/F1_1819.csv",
+      "sha256": "31559a4d8b52eff6f78e13a9b33d7b844e4f41d823dd1cf5c1aaa61c51eaaf9c",
+      "bytes": 91888
+    },
+    {
+      "path": "historical_data/france/F1_1920.csv",
+      "sha256": "bda566f6aea24bc2f08cceac8f7d6c81d7f9c64cfda9fdae7eb9be2b84dddd2a",
+      "bytes": 125011
+    },
+    {
+      "path": "historical_data/france/F1_2021.csv",
+      "sha256": "124560ab39a1c256eb6ee5ad2dd1eed250c9780d0cbb34525d9abee41fbf7f70",
+      "bytes": 170539
+    },
+    {
+      "path": "historical_data/france/F1_2122.csv",
+      "sha256": "9e9eaefb8704264f8d55a718a119d940de4af7d7b4217ac4097b957406e16213",
+      "bytes": 171274
+    },
+    {
+      "path": "historical_data/france/F1_2223.csv",
+      "sha256": "18ea07d922e8b6360b81189637efd5aaf44779765db856bff208d5b1acf69b2f",
+      "bytes": 171165
+    },
+    {
+      "path": "historical_data/france/F1_2324.csv",
+      "sha256": "ca0a4bf51d5b1ccfd0e1558ea41de6bb829df6c96c759888a87248d296d5adb7",
+      "bytes": 135000
+    },
+    {
+      "path": "historical_data/france/F1_2425.csv",
+      "sha256": "fe6ae6a0c30d05f0ac88e0fc4a31452c7203e2b444703dfa941e22f38f20ab63",
+      "bytes": 154703
+    },
+    {
+      "path": "historical_data/france/F1_2526.csv",
+      "sha256": "f5ea3e51670781f1ccb69ef27387d34666fa3a6911e82c8be0e48f9e6e08f719",
+      "bytes": 140637
+    },
+    {
+      "path": "historical_data/germany/D1_1415.csv",
+      "sha256": "b1804b37586c92d3148084c9eb9759b2d834a210917819d3c8999f2e6a2ad723",
+      "bytes": 79194
+    },
+    {
+      "path": "historical_data/germany/D1_1516.csv",
+      "sha256": "a9d8689660cf7fe0290ab3de3e00d6fc5ec5fcf90683ee5b84fc229c0923d168",
+      "bytes": 78179
+    },
+    {
+      "path": "historical_data/germany/D1_1617.csv",
+      "sha256": "15b7a41eacde5fcd130d1cd0954c8fe8371fbbfc815c1ce2dd329cf3b27c2d5c",
+      "bytes": 78466
+    },
+    {
+      "path": "historical_data/germany/D1_1718.csv",
+      "sha256": "033227408247769568111af49de2a50f6951c87e6d43f9e1a01e73d647bced3e",
+      "bytes": 78641
+    },
+    {
+      "path": "historical_data/germany/D1_1819.csv",
+      "sha256": "f03ee41b741aca9c43cbafb800bbc6f01ca9d7ed19c1a9dd4c309389280cfe11",
+      "bytes": 75587
+    },
+    {
+      "path": "historical_data/germany/D1_1920.csv",
+      "sha256": "0a032b1adc75f7fa018dcfeff7fcdcc0a89014e3fe69f44534f538b6f931aef5",
+      "bytes": 138965
+    },
+    {
+      "path": "historical_data/germany/D1_2021.csv",
+      "sha256": "48ec5d53d2452b6ebdbc07bd78a836d6a4686f99fc020439ee3292e685315e61",
+      "bytes": 139075
+    },
+    {
+      "path": "historical_data/germany/D1_2122.csv",
+      "sha256": "034d0e1296e944dddf25e3c91b85ef5bd1ad25661b89d73878f5c73bfea4b9fc",
+      "bytes": 139177
+    },
+    {
+      "path": "historical_data/germany/D1_2223.csv",
+      "sha256": "b716517b25033ce8e0243e967aa961876425a4c41e97c8aa8fa59f2aca061341",
+      "bytes": 139302
+    },
+    {
+      "path": "historical_data/germany/D1_2324.csv",
+      "sha256": "1de8bc12a133dbbf71bc6ffda62082642f087f61b1b7c15ae9f2d320876fb07e",
+      "bytes": 135825
+    },
+    {
+      "path": "historical_data/germany/D1_2425.csv",
+      "sha256": "a295c58033cfe6393cbbc28f7db85671839b960c5f1153fd3678e20ad2adb92e",
+      "bytes": 156414
+    },
+    {
+      "path": "historical_data/germany/D1_2526.csv",
+      "sha256": "d2a57efd3ec12bddea97b945a09b4ada31e276ef91cc09b426bedda5f3e48a09",
+      "bytes": 142957
+    },
+    {
+      "path": "historical_data/italy/I1_1415.csv",
+      "sha256": "6fc7f4f4f9da99f15d60487ca64ebddcda98e4b86edd1a1f134cf89b48720f06",
+      "bytes": 96108
+    },
+    {
+      "path": "historical_data/italy/I1_1516.csv",
+      "sha256": "438649d651be61b4acfbe8feee90256cc5493df431e219ce411086dfad554a81",
+      "bytes": 95127
+    },
+    {
+      "path": "historical_data/italy/I1_1617.csv",
+      "sha256": "39eb2bc1812897e01c280b711b3b8f5c15d3dee111aa09fbdf2e4abd7404bca3",
+      "bytes": 95048
+    },
+    {
+      "path": "historical_data/italy/I1_1718.csv",
+      "sha256": "664a8874d3a33923036120c4162e72f13887e0897b51effe27f89969c79c335d",
+      "bytes": 95137
+    },
+    {
+      "path": "historical_data/italy/I1_1819.csv",
+      "sha256": "2baea8a1fb31096960b5f5797d31dbb6b454eb41b00845e6b0b79feb82a0e3d0",
+      "bytes": 91392
+    },
+    {
+      "path": "historical_data/italy/I1_1920.csv",
+      "sha256": "f33233e0c428ebe4f7cb854c4a504e0b59c4e009ee8b679269486e26afdc575b",
+      "bytes": 170130
+    },
+    {
+      "path": "historical_data/italy/I1_2021.csv",
+      "sha256": "c09196fa18877547442807d375317299947abdd6d51a5e0df044cc6026e13f36",
+      "bytes": 170667
+    },
+    {
+      "path": "historical_data/italy/I1_2122.csv",
+      "sha256": "6a9555d5a90e652a883fd2862a52545c06e264016cd770347c067a6d7c993170",
+      "bytes": 171204
+    },
+    {
+      "path": "historical_data/italy/I1_2223.csv",
+      "sha256": "9960837f37a97ae700f876c87b85a8b7a2f5a5d05a53077830c21b9db8880c45",
+      "bytes": 171573
+    },
+    {
+      "path": "historical_data/italy/I1_2324.csv",
+      "sha256": "343a89db026fe4204ebeabd663cdfee8d02a45457828fc1cb63fa630ca170723",
+      "bytes": 167015
+    },
+    {
+      "path": "historical_data/italy/I1_2425.csv",
+      "sha256": "79d87a5b18771e066ac7419b7876bfd9771a68ca117a9712375d6bc9685abee3",
+      "bytes": 191722
+    },
+    {
+      "path": "historical_data/italy/I1_2526.csv",
+      "sha256": "9c7ec52302c39531fecad1a5ab9f708cda3b6b829f653bb4540d04997820b8a4",
+      "bytes": 172843
+    },
+    {
+      "path": "historical_data/spain/SP1_1415.csv",
+      "sha256": "28c64013605cde831af022c4192616464550afd0ed9ca96cc59afe67ca5a9009",
+      "bytes": 97119
+    },
+    {
+      "path": "historical_data/spain/SP1_1516.csv",
+      "sha256": "f8e59217c158bd1bac302bcfc8555b88661dfe065571809bf51c1df69753d977",
+      "bytes": 96045
+    },
+    {
+      "path": "historical_data/spain/SP1_1617.csv",
+      "sha256": "6f5794a69decfb863ecb6a0b865ffd3241eb5028035d9f19c48a299c5baa8f9a",
+      "bytes": 96226
+    },
+    {
+      "path": "historical_data/spain/SP1_1718.csv",
+      "sha256": "5786719e06d1a5387cb90fac71597c890f496df19e8e1aa868bbc852f7e730fd",
+      "bytes": 96801
+    },
+    {
+      "path": "historical_data/spain/SP1_1819.csv",
+      "sha256": "9b8cece2c85e90e382b30dc4fc5046534f12c6d2b0efa74cd7d1d52e90a0c201",
+      "bytes": 92914
+    },
+    {
+      "path": "historical_data/spain/SP1_1920.csv",
+      "sha256": "a05d5d60eee0b1414c56d6d6817f860cdc620e206234069a1886c98a8cb318da",
+      "bytes": 171484
+    },
+    {
+      "path": "historical_data/spain/SP1_2021.csv",
+      "sha256": "b4137db923101f464e8403c4973acbfaf7d71724ce93b4336fad580e894d9591",
+      "bytes": 171721
+    },
+    {
+      "path": "historical_data/spain/SP1_2122.csv",
+      "sha256": "2d9e619700712823d15716c07715133f8c3b1a09046930dcfc785a38633dee2e",
+      "bytes": 172174
+    },
+    {
+      "path": "historical_data/spain/SP1_2223.csv",
+      "sha256": "53348112526b5165539df240be350083989bb258f30c0ff7cacbc0165ca7e4b3",
+      "bytes": 172199
+    },
+    {
+      "path": "historical_data/spain/SP1_2324.csv",
+      "sha256": "5323f596c7ed318e4bce95557a369d809d98501fa499ea5f41350cd45cf3c7d9",
+      "bytes": 168164
+    },
+    {
+      "path": "historical_data/spain/SP1_2425.csv",
+      "sha256": "c086e96d6a53f6e6c0fce4e35db0d1728c773b4362323da0161a34769e315a36",
+      "bytes": 192863
+    },
+    {
+      "path": "historical_data/spain/SP1_2526.csv",
+      "sha256": "0fb81cf8c4ad496df407d19063e7fad8b1cb4638fa0931414c4c15962c26b2a7",
+      "bytes": 168695
+    },
+    {
+      "path": "leagues_config.json",
+      "sha256": "af10d7786cd3013226a3d6834cf93dcc591e5e75c4dfb31c9cde71fb2680f5b5",
+      "bytes": 3161
+    },
+    {
+      "path": "models/PL_elo_v7.pkl",
+      "sha256": "72425199e3e709fe13fbf7ca14b15a861cf2afa8eac9e81786589b309c261afa",
+      "bytes": 481
+    },
+    {
+      "path": "models/data_quality/PL/data_quality_v9.2.json",
+      "sha256": "e5439a6ed5aa213306ff6b5f456db15b9219c267cb9b5ff065053ded843c9030",
+      "bytes": 833
+    },
+    {
+      "path": "models/decision_audit/PL/decision_audit_v9.1.json",
+      "sha256": "fa9466d446ea366951ee6c6f0d55983241ec9d36198a029cf6fa4d701c17f8dc",
+      "bytes": 2343
+    },
+    {
+      "path": "models/governance/PL/model_governance_v9.0.json",
+      "sha256": "ee02de9be35a933ba4b373027c5ea54646ff75cb3555a36bce5445514449fe25",
+      "bytes": 996
+    },
+    {
+      "path": "models/lifecycle/PL/model_lifecycle_v8.9.json",
+      "sha256": "eae3ff699839cddc3998c5d44380c8046704c70c6682eee74285ec2faf6cedee",
+      "bytes": 662
+    },
+    {
+      "path": "models/production_hardening/PL/production_hardening_v9.3.json",
+      "sha256": "d80ddeb22dbef77b1d6e165f8ca7a4f2e80a40cc44a8b5246c064aa11914d94c",
+      "bytes": 814
+    },
+    {
+      "path": "requirements-lock.txt",
+      "sha256": "88a0e9e077b2a675ee4b3664c15031140e40ef8b4c695aaec223ee99a5b31e6f",
+      "bytes": 325
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "3cea3b3986be9ce8b989e9259e9d66d6a2d5e1c2665ab01c96dffd50cd1a247c",
+      "bytes": 128
+    },
+    {
+      "path": "resumable_walk_forward.py",
+      "sha256": "3d19186ea51d732893c19754d1d88b5225fe846da3ad08f800450d7fc3b63746",
+      "bytes": 3141
+    },
+    {
+      "path": "statistical_significance.py",
+      "sha256": "3bc5096e0d03a39535b272910134703fbf6d8d23c8ac9d7d9fb988681bbaf329",
+      "bytes": 2687
+    },
+    {
+      "path": "test_v10_0_10_performance.py",
+      "sha256": "4b350dee64f01b2e4a6a56f41dbc2afc79ca3b849f5ae8086545f3119faa0351",
+      "bytes": 867
+    },
+    {
+      "path": "test_v10_0_11_significance.py",
+      "sha256": "a63e80c2b5536662282d4f66598e92e9da6cd6c8c29cb579662453bb333ab26b",
+      "bytes": 691
+    },
+    {
+      "path": "test_v10_0_12_final.py",
+      "sha256": "b0965da70f6ebec2de79289d76077938a9828cfca1b38b19ea3614a1e92a4da9",
+      "bytes": 1093
+    },
+    {
+      "path": "test_v10_0_1_verification.py",
+      "sha256": "1240edb2743e98f4d798411c6500325d7050ecbfcb3941feb765f914faf350df",
+      "bytes": 754
+    },
+    {
+      "path": "test_v10_0_3_draw_audit.py",
+      "sha256": "27832a2033146f6517765c3e8515dc3423172bb1dad4171764c21ff11451ae5e",
+      "bytes": 526
+    },
+    {
+      "path": "test_v10_0_4_targeted_draw_fix.py",
+      "sha256": "28e5eef9402a18b4a12ed11aa1c1cd52e3d07d71724775d01384a2ce973b723e",
+      "bytes": 538
+    },
+    {
+      "path": "test_v10_0_5_probability_integrity.py",
+      "sha256": "10e4e835a238f2cc4ce24c7f81b1a7ef63ee315a7f457eb18a6c005025e5f5df",
+      "bytes": 353
+    },
+    {
+      "path": "test_v10_0_6_probability_pipeline.py",
+      "sha256": "c2a420eaa428efff330f5a788aa3a3d2ee7d0a637abce3d7e757a865d5ac91e8",
+      "bytes": 478
+    },
+    {
+      "path": "test_v10_0_9_decision_policy_temporal.py",
+      "sha256": "f49a6b8aa2f510fef6979ca6af7bcf22135e96242a02e350b69b8e668fd5517f",
+      "bytes": 1403
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "teams": [
+      "Inter",
+      "Milan"
+    ],
+    "name": "Derby della Madonnina"
+  },
+  {
+    "teams": [
+      "Inter",
+      "Juventus"
+    ],
+    "name": "Derby d'Italia"
+  },
+  {
+    "teams": [
+      "Roma",
+      "Lazio"
+    ],
+    "name": "Derby della Capitale"
+  },
+  {
+    "teams": [
+      "Juventus",
+      "Torino"
+    ],
+    "name": "Derby della Mole"
+  },
+  {
+    "teams": [
+      "Juventus",
+      "Inter"
+    ],
+    "name": "Derby d'Italia"
+  },
+  {
+    "teams": [
+      "Juventus",
+      "Milan"
+    ],
+    "name": "Italian Classic"
+  },
+  {
+    "teams": [
+      "Napoli",
+      "Roma"
+    ],
+    "name": "South vs Capital"
+  },
+  {
+    "teams": [
+      "Napoli",
+      "Juventus"
+    ],
+    "name": "Italian Top Clash"
+  },
+  {
+    "teams": [
+      "Napoli",
+      "Inter"
+    ],
+    "name": "Italian Top Clash"
+  },
+  {
+    "teams": [
+      "Fiorentina",
+      "Juventus"
+    ],
+    "name": "Italian Classic"
+  },
+  {
+    "teams": [
+      "Fiorentina",
+      "Roma"
+    ],
+    "name": "Italian Classic"
+  },
+  {
+    "teams": [
+      "Genoa",
+      "Sampdoria"
+    ],
+    "name": "Derby della Lanterna"
+  },
+  {
+    "teams": [
+      "Lazio",
+      "Roma"
+    ],
+    "name": "Derby della Capitale"
+  },
+  {
+    "teams": [
+      "Milan",
+      "Napoli"
+    ],
+    "name": "Italian Classic"
+  },
+  {
+    "teams": [
+      "Atalanta",
+      "Brescia"
+    ],
+    "name": "Lombard Derby"
+  },
+  {
+    "teams": [
+      "Inter",
+      "Milan"
+    ],
+    "name": "Derby della Madonnina"
+  },
+  {
+    "teams": [
+      "Torino",
+      "Juventus"
+    ],
+    "name": "Derby della Mole"
+  },
+  {
+    "teams": [
+      "Bologna",
+      "Parma"
+    ],
+    "name": "Emilian Derby"
+  },
+  {
+    "teams": [
+      "Bologna",
+      "Fiorentina"
+    ],
+    "name": "Appennino Derby"
+  },
+  {
+    "teams": [
+      "Verona",
+      "Chievo"
+    ],
+    "name": "Derby della Scala"
+  }
+]
