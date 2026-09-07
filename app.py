@@ -2000,15 +2000,15 @@ class FootballAPI:
     )
 
         if d and "matches" in d:
-        m = [
-            x for x in d["matches"]
-            if x.get("status") in ("SCHEDULED", "TIMED")
-        ]
+            m = [
+                x for x in d["matches"]
+                if x.get("status") in ("SCHEDULED", "TIMED")
+                ]
 
-        m.sort(key=lambda x: x.get("utcDate", ""))
-        return m
+            m.sort(key=lambda x: x.get("utcDate", ""))
+            return m
 
-    return []
+        return []
 
 
 class OddsAPI:
