@@ -1987,18 +1987,37 @@ class FootballAPI:
             return m
         return []
 
-    def upcoming(self, league_code: str, days: int = 14) -> List[dict]:
-        t = datetime.now().strftime("%Y-%m-%d")
-        e = (datetime.now() + timedelta(days=days)).strftime("%Y-%m-%d")
-        d = self._get(
-        f"competitions/{league_code}/matches",
-        {"status": "SCHEDULED,TIMED", "dateFrom": t, "dateTo": e},
-    )
-        if d and "matches" in d:
-            m = d["matches"]
-            m.sort(key=lambda x: x.get("utcDate", ""))
-            return m
-        return []
+        def predict_upcoming(self, days: int = 14) -> List[Pred]:
+        upcoming = self.api.upcoming(self.resources.api_code, days)
+        if not upcoming:
+            self._log_msg("info", "No upcoming matches from API")
+            return []
+
+        preds: List[Pred] = []
+        for m in upcoming:
+            # ── إصلاح: استخدام الأسماء المشفرة لضمان تطابق الـ IDs ──
+            ht = m.get("homeTeam", {})
+            at = m.get("awayTeam", {})
+            hn = self.resources.norm_name(ht.get("shortName") or ht.get("name", ""))
+            an = self.resources.norm_name(at.get("shortName") or at.get("name", ""))
+            
+            # توليد نفس الـ ID الذي يستخدمه المحرك
+            hid = self.resources.canonical_team_id(hn)
+            aid = self.resources.canonical_team_id(an)
+
+            if hid and aid:
+                pr = self.eng.predict(hid, aid, m.get("utcDate", ""))
+                if pr:
+                    preds.append(pr)
+                    # V8.5: Champion output stays untouched; Challenger is shadow-only.
+                    key = f"{self.code}_{m.get('utcDate','')[:10]}_{hid}_{aid}"
+                    if hasattr(self, 'shadow') and self.shadow:
+                        self.shadow.record_prediction(key, [pr.hp, pr.dp, pr.ap], None,
+                                                      {"date": m.get("utcDate"), "home_id": hid, "away_id": aid})
+
+        self.last_preds = preds
+        return preds
+
 
 
 class OddsAPI:
